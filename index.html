@@ -1,19 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>신유수의 취향 외모 리스트</title>
+
 <style>
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     margin: 0;
     padding: 40px 20px;
     font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
     min-height: 100vh;
-    box-sizing: border-box;
     background: linear-gradient(135deg, #feda75 0%, #fa7e1e 25%, #d62976 55%, #962fbf 80%, #4f5bd5 100%);
     background-attachment: fixed;
   }
+
   .container {
+    width: 100%;
     max-width: 720px;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.55);
@@ -24,6 +32,7 @@
     padding: 36px 40px;
     border-radius: 16px;
   }
+
   h1 {
     text-align: center;
     font-size: 22px;
@@ -33,35 +42,86 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     color: #222;
   }
+
   .list {
     font-size: 16px;
     line-height: 2;
     color: #333;
     text-align: center;
   }
+
   .list b {
     font-weight: 700;
     color: #111;
   }
+
   .namelist {
     text-decoration: none;
     color: black;
   }
+
+  /* 모바일 화면 최적화 */
+  @media screen and (max-width: 600px) {
+    body {
+      padding: 20px 12px;
+    }
+
+    .container {
+      padding: 28px 16px;
+      border-radius: 14px;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .list {
+      font-size: 15px;
+      line-height: 2.2;
+    }
+  }
+
+  /* 작은 스마트폰 화면 최적화 */
+  @media screen and (max-width: 360px) {
+    body {
+      padding: 14px 8px;
+    }
+
+    .container {
+      padding: 24px 10px;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
+
+    .list {
+      font-size: 14px;
+    }
+  }
 </style>
 </head>
+
 <body>
   <div class="container">
-    <h1>신유수의 취향 외모 리스트<br><span style="text-align: center; font-size: 13px; color: grey; font-weight: normal; text-align: center;">이름을 클릭하면 인스타그램 프로필을 볼 수 있습니다</span></h1>
+    <h1>
+      신유수의 취향 외모 리스트<br>
+      <span style="font-size: 13px; color: grey; font-weight: normal;">
+        이름을 클릭하면 인스타그램 프로필을 볼 수 있습니다
+      </span>
+    </h1>
+
     <div class="list">
-      &ensp;&ensp;&nbsp;&nbsp;<b><a href="w" target="_self" class="namelist">지현 🌟</a></b><br>
-      <a href="w" target="_self" class="namelist">예진</a><br>
-      <a href="w" target="_self" class="namelist">만둥글</a><br>
-      <b><a href="w" target="_self" class="namelist">은짱</a></b><br>
-      <a href="w" target="_self" class="namelist">이루리</a><br>
-      <b><a href="w" target="_self" class="namelist">다인이공</a></b><br>
-      <a href="w" target="_self" class="namelist">려진</a><br>
-      <b><a href="w" target="_self" class="namelist">혜임</a></b><br>
-      <a href="w" target="_self" class="namelist">시은</a><br>
+      &ensp;&ensp;&nbsp;&nbsp;<b><a href="https://www.instagram.com/di_hyuni/" target="_self" class="namelist">지현 🌟</a></b><br>
+      <a href="https://www.instagram.com/yexxn_zz/" target="_self" class="namelist">예진</a><br>
+      <a href="https://www.instagram.com/mandudontknoww/" target="_self" class="namelist">만둥글</a><br>
+      <b><a href="https://www.instagram.com/0eunjjang.exe/" target="_self" class="namelist">은짱</a></b><br>
+      <a href="https://www.instagram.com/ru._rx0/" target="_self" class="namelist">이루리</a><br>
+      <b><a href="https://www.instagram.com/bbangkki__/" target="_self" class="namelist">다인이공</a></b><br>
+      <a href="https://www.instagram.com/dlfuwls/" target="_self" class="namelist">려진</a><br>
+      <b><a href="https://www.instagram.com/hyeim_102/" target="_self" class="namelist">혜임</a></b><br>
+      <a href="https://www.instagram.com/sen_eni7/" target="_self" class="namelist">시은</a><br>
       <b><a href="w" target="_self" class="namelist">조뽀또</a></b><br>
       <a href="w" target="_self" class="namelist">채원</a><br>
       <a href="w" target="_self" class="namelist">강하라</a><br>
